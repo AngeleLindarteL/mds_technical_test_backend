@@ -2,6 +2,7 @@ from abc import abstractmethod, ABCMeta
 from typing import Any, Optional, Generic, TypeVar
 from dataclasses import dataclass
 from pydantic import BaseModel
+import pytest
 
 
 @dataclass
